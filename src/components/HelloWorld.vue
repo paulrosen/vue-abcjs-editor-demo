@@ -9,7 +9,6 @@
 new abcjs.Editor("abc-source",
     {canvas_id: "paper"});</pre>
 		<textarea id="abc-source">{{tune}}</textarea>
-		<div id="midi"></div>
 		<div id="paper"></div>
 	</div>
 </template>
@@ -31,6 +30,9 @@ new abcjs.Editor("abc-source",
 </script>
 
 <style>
+	.hello {
+		text-align: left;
+	}
 	#abc-source {
 		width: 350px;
 		height: 300px;
