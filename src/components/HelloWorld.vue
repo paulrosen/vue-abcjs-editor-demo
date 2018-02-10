@@ -3,11 +3,14 @@
 		<h1>Vue Editor abcjs Demo</h1>
 		<p>This is a simple app that uses a textarea to display some sheet music.</p>
 		<p>The only addition to the standard vue-cli app's dependencies is:</p>
-		<pre>npm install abcjs --save</pre>
+		<pre>npm install abcjs --save-dev</pre>
 		<p>The only necessary code to make this work is:</p>
 		<pre>import abcjs from "abcjs";
 new abcjs.Editor("abc-source",
     {canvas_id: "paper"});</pre>
+
+		<pre>&lt;textarea id="abc-source"&gt;&lt;/textarea&gt;
+&lt;div id="paper"&gt;&lt;/div&gt;</pre>
 		<textarea id="abc-source">{{tune}}</textarea>
 		<div id="paper"></div>
 	</div>
