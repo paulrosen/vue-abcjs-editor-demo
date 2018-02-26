@@ -11,7 +11,7 @@ new abcjs.Editor("abc-source",
 
 		<pre>&lt;textarea id="abc-source"&gt;&lt;/textarea&gt;
 &lt;div id="paper"&gt;&lt;/div&gt;</pre>
-		<textarea id="abc-source">{{tune}}</textarea>
+		<textarea id="abc-source" v-model="tune"></textarea>
 		<div id="paper"></div>
 	</div>
 </template>
