@@ -14,7 +14,7 @@
 		"vue": "^2.5.13"
 	},
 	"devDependencies": {
-		"abcjs": "3.3.3",
+		"abcjs": "3.3.4",
 		"autoprefixer": "^8.0.0",
 		"babel-core": "^6.22.1",
 		"babel-eslint": "^8.2.1",
